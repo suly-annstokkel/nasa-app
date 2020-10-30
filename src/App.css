@@ -5,20 +5,23 @@ body {
   color: #d14f4f;
   line-height: 1.7;
   font-size: 19px;
-  background-color: #222222;
-  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23424242' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url(Component/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* navbar ---------- */
 
 .navbar {
-  background-color: rgba(22, 22, 22, 0.8);
+  background-color:yellowgreen;
   display: flex;
   justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: sticky;
 }
 
 .link {
-  color: #efefef;
+  color: black;
   display: inline-block;
   padding: 3px 20px;
   font-size: 16px;
@@ -27,7 +30,7 @@ body {
 }
 
 .link:hover {
-  color: #f59494;
+  color: white;
   transform: scale(1.1);
 }
 
@@ -50,15 +53,23 @@ body {
 .nasa-photo h1 {
   margin-top: 0;
   margin-bottom: 0;
+  color: yellowgreen;
+  padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .nasa-photo .date {
   margin-top: 0;
   margin-bottom: 30px;
+  color: yellowgreen;
+  padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .nasa-photo .explanation {
   color: #bbb;
+  padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 @media (max-width: 1280px) {
@@ -90,6 +101,7 @@ body {
   text-decoration: none;
   transition: 0.3s ease all;
   text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .home-link:hover {

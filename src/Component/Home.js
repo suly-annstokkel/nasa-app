@@ -4,7 +4,14 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 return (
     <div className="home">
-        <Link className="home-link" to="/nasaphoto">See into the starts!</Link>
-    </div>
+        <Link className="home-link" to="/nasaphoto">Dialy NASA news</Link>
+    </div> 
+    //,
+//        <div className="home">
+//        <Link className="home-link" to="/nasaphoto">Dialy NASA news</Link>
+//    </div>,
+//       <div className="home">
+//       <Link className="home-link" to="/nasaphoto">Dialy NASA news</Link>
+//   </div>
 )
 }
