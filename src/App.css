@@ -5,7 +5,7 @@ body {
   color: #d14f4f;
   line-height: 1.7;
   font-size: 19px;
-  background-image: url(Component/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+  background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(Component/images/nasa-Q1p7bh3SHj8-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -13,7 +13,7 @@ body {
 /* navbar ---------- */
 
 .navbar {
-  background-color:yellowgreen;
+  background-color:rgb(170, 255, 0);;
   display: flex;
   justify-content: center;
   font-family: 'Times New Roman', Times, serif;
@@ -24,7 +24,7 @@ body {
   color: black;
   display: inline-block;
   padding: 3px 20px;
-  font-size: 16px;
+  font-size: 24px;
   text-decoration: none;
   transition: 0.3s ease all;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .nasa-photo .explanation {
-  color: #bbb;
+  color: white;
   padding-left: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -93,7 +93,7 @@ body {
 
 .home-link {
   font-size: 40px;
-  background: #f59494;
+  background: yellowgreen;
   display: inline-block;
   padding: 40px 80px;
   color: #fff;
@@ -106,5 +106,6 @@ body {
 
 .home-link:hover {
   border-radius: 5px;
-  background: #e77171;
+  background: rgb(170, 255, 0);
+  color: black;
 }

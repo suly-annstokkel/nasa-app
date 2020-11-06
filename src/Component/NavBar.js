@@ -5,13 +5,7 @@ export default function NasaBar() {
   return (
     <div className="navbar">
       <ul>
-        <Link className="link" to="/">Homepage</Link>
-      </ul>
-      <ul>
-        <Link className="link" to="/">Menu</Link>
-      </ul>
-      <ul>
-        <Link className="link" to="/">Profile</Link>
+        <Link className="link" to="/">Return to Homepage</Link>
       </ul>
     </div>
   );
