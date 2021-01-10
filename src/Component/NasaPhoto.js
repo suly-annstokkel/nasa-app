@@ -1,9 +1,11 @@
-import React from "react";
-import { useState, useEffect } from "react";
+//Compontenten van React en navigatie moet geimporteerd worden zodat ze gebruikt kunnen worden. 
+import React, { useState, useEffect } from "react";
 import NavBar from "./NavBar";
 
+//API Key wordt zo beveiligd
 const apiKey = process.env.REACT_APP_NASA_KEY;
 
+//Functie waar de foto van de API wordt opgehaald en runnen. 
 export default function NasaPhoto() {
   const [photoData, setPhotoData] = useState(null);
 
@@ -13,13 +15,14 @@ export default function NasaPhoto() {
     async function fetchPhoto() {
       const res = await fetch(
         `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
-      );
+      ); 
       const data = await res.json();
       setPhotoData(data);
       console.log(data);
     }
   }, []);
 
+  //Functie waar de Navigatiebar boven staat en gegevens (foto/video,titel, datum en opmerking) automatisch geupdate kan worden. 
   if (!photoData) return <div />;
 
   return (
