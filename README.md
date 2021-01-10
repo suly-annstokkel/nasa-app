@@ -18,20 +18,16 @@ Om deze applicatie te klonen en uit te voeren, heb je Git en Node.js (die met np
 In de projectdirectory kun je het volgende uitvoeren:
 
 >1. Clone deze repository:
-$ git clone https://github.com/suly-annstokkel/nasa-app.git
+git clone https://github.com/suly-annstokkel/nasa-app.git
 
-> 2. Ga naar de reposity:
-cd nasa-app
+> 2. Installeer dependecies:
+npm install 
 
-> 3. Installeer dependecies:
-$ npm install
+> 3. Bezoek de [API-pagina van NASA](https://api.nasa.gov/) en genereer een API-sleutel. Die sleutel wordt naar u gemaild.
 
-> 4. Run de app:
-$ npm start
+> 5. Maak een .env-bestand in de root van het project en voer de volgende code in: **REACT_APP_NASA_KEY = "Uw API-sleutel hier!"**
 
-> 5. API Key: REACT_APP_NASA_KEY="nrECKFGBS33yJuHZ8GZmaIodkZR7xjwbCikDy0yM"
-
-> 5. Open [http://localhost:3000](http://localhost:3000) om het in de browser te bekijken.
+> 6. Voer npm start uit [http://localhost:3000](http://localhost:3000) om de app de browser te bekijken.
 
 De pagina wordt opnieuw geladen als u wijzigingen aanbrengt. U zult ook eventuele lint-fouten in de console zien.
 
