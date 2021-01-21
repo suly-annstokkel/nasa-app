@@ -1,5 +1,5 @@
 # <p align="center"> NASA React app</p>
-![Universe photo](../nasa-apod/src/Component/images/md-bg.png)
+![Universe photo](src/Component/images/bg.png)
 
 
 ## Tabel met inhoud
@@ -31,6 +31,18 @@ npm install
 
 De pagina wordt opnieuw geladen als u wijzigingen aanbrengt. U zult ook eventuele lint-fouten in de console zien.
 
+### Screenshots NASA app
+Dit is hoe de NASA app eruit ziet
+<img src="src/Component/images/nasa-app1.png" alt="homepagina" width="600"> 
+<img src="src/Component/images/nasa-app2.png" alt="homepaginahover" width="600"> 
+<img src="src/Component/images/nasa-app3.png" alt="nasa_info" width="600"> 
+
+
+### Screenshots NASA app JavaScript
+<img src="src/Component/images/JavaScript1.png" alt="js1" width="600"> 
+<img src="src/Component/images/JavaScript2.png"  alt="js2" width="600"> 
+<img src="src/Component/images/JavaScript3.png"  alt="js3" width="600"> 
+<img src="src/Component/images/JavaScript4.png"  alt="js4" width="600"> 
 
 
 ## Download 
